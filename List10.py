@@ -7,13 +7,13 @@ def main(list_num):
         int: return answer
     """
     num=list_num[0]
-    if list_num[1]>num:
+    if list_num[1]>=num:
         num=list_num[1]
-    if list_num[2]>num:
+    if list_num[2]>=num:
         num=list_num[2]
-    if list_num[3]>num:
+    if list_num[3]>=num:
         num=list_num[3]
-    if list_num[4]>num:
+    if list_num[4]>=num:
         num=list_num[4]
 
     return num
